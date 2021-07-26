@@ -1,0 +1,31 @@
+{
+  "name": "api-autonome",
+  "version": "1.0.0",
+  "description": "API Autonome",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "Backend"
+  ],
+  "author": "Diogo Rebello",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.632.0",
+    "dotenv-safe": "^8.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "moment": "^2.29.1",
+    "mysql2": "^1.7.0",
+    "node-localstorage": "^1.3.1",
+    "node-passlib": "^1.0.4",
+    "pbkdf2": "^3.1.2",
+    "restify": "^8.4.0",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-jwt-community": "^1.1.14",
+    "sequelize": "^5.18.4",
+    "store": "^2.0.12",
+    "unirest": "^0.6.0"
+  }
+}
